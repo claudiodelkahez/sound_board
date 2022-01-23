@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(171, 171, 221);
+
+    height: 100vh;
+}
+
+.btn {
+    padding: 3rem;
+    border-radius: 10px;
+    border: none;
+    margin: 0.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.btn:focus {
+    outline: none;
+    transform: scale(.98);
+
+}
